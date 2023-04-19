@@ -28,7 +28,7 @@ namespace TodoSynchronizer.Core.Services
         {
             Client = new HttpClient()
             {
-                BaseAddress = new Uri("https://oc.sjtu.edu.cn")
+                BaseAddress = new Uri("https://jicanvas.com/")
             };
             Client.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
 
