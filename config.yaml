@@ -47,7 +47,7 @@ AnouncementConfig :
   CreateAttachments : true
   # 若 Todo 列表内无当前的公告，
   # 则把创建的新待办事项的提醒时间设置为 当前时间+RemindAfter
-  CreateRemind : true
+  CreateRemind : false
   # 若 Todo 列表内无当前的公告，
   # 则把创建的新待办事项的重要性设置为 SetImportance 指定的值
   CreateImportance : false
