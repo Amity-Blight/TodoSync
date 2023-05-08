@@ -47,7 +47,7 @@ AnouncementConfig :
   CreateAttachments : true
   # 若 Todo 列表内无当前的公告，
   # 则把创建的新待办事项的提醒时间设置为 当前时间+RemindAfter
-  CreateRemind : false
+  CreateRemind : true
   # 若 Todo 列表内无当前的公告，
   # 则把创建的新待办事项的重要性设置为 SetImportance 指定的值
   CreateImportance : false
@@ -90,7 +90,7 @@ AnouncementConfig :
   # mm 分钟数，范围从“00”到“59”。
   # ss 秒数，范围从“0”到“59”。
   # fffffff 可选毫秒数，范围从“0010000”到“9990000”。
-  RemindAfter : 00:05:00.00
+  RemindAfter : 00:06:00.00
 # Canvas 作业 配置
 AssignmentConfig : 
   # 是否将 Canvas 作业同步到 Todo
