@@ -153,7 +153,7 @@ AssignmentConfig :
   # mm 分钟数，范围从“00”到“59”。
   # ss 秒数，范围从“0”到“59”。
   # fffffff 可选毫秒数，范围从“0010000”到“9990000”。
-  BeforeTimeSpan : 1.00:00:00.00
+  BeforeTimeSpan : 1.06:00:00.00
 # Canvas 测验 配置
 QuizConfig : 
   # 是否将 Canvas 测验同步到 Todo
